@@ -1,0 +1,1 @@
+import{x as o}from"./index-Mio61lUN.js";function t(r){return o.post("/loans/borrow",r)}function e(r){return o.post("/loans/return",r)}function s(r){return o.get("/loans/current",{params:r})}function u(r){return o.get("/loans/history",{params:r})}function a(r){return o.get("/loans/overdue",{params:r})}export{u as a,t as b,a as c,s as f,e as r};

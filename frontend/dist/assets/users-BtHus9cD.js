@@ -1,0 +1,1 @@
+import{x as r}from"./index-Mio61lUN.js";function u(e){return r.get("/users",{params:e})}function n(e){return r.post("/users",e)}function o(e,s){return r.put(`/users/${e}`,s)}function a(e){return r.delete(`/users/${e}`)}function c(){return r.get("/roles")}export{u as a,n as c,a as d,c as f,o as u};

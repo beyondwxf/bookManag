@@ -1,0 +1,29 @@
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.3.5)
+
+2026-05-03T19:04:40.470+08:00  INFO 11956 --- [library-backend] [           main] c.c.library.LibraryBackendApplication    : Starting LibraryBackendApplication v1.0.0 using Java 17.0.7 with PID 11956 (D:\develop\aicode\codex5\backend\target\library-backend-1.0.0.jar started by 01 in D:\develop\aicode\codex5\backend)
+2026-05-03T19:04:40.475+08:00  INFO 11956 --- [library-backend] [           main] c.c.library.LibraryBackendApplication    : No active profile set, falling back to 1 default profile: "default"
+2026-05-03T19:04:42.017+08:00  INFO 11956 --- [library-backend] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-05-03T19:04:42.042+08:00  INFO 11956 --- [library-backend] [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-05-03T19:04:42.043+08:00  INFO 11956 --- [library-backend] [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.31]
+2026-05-03T19:04:42.094+08:00  INFO 11956 --- [library-backend] [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-05-03T19:04:42.095+08:00  INFO 11956 --- [library-backend] [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1569 ms
+ _ _   |_  _ _|_. ___ _ |    _ 
+| | |\/|_)(_| | |_\  |_)||_|_\ 
+     /               |         
+                        3.5.7 
+2026-05-03T19:04:43.741+08:00  INFO 11956 --- [library-backend] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2026-05-03T19:04:43.751+08:00  INFO 11956 --- [library-backend] [           main] c.c.library.LibraryBackendApplication    : Started LibraryBackendApplication in 3.779 seconds (process running for 4.27)
+2026-05-03T19:05:18.772+08:00  INFO 11956 --- [library-backend] [nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-05-03T19:05:18.774+08:00  INFO 11956 --- [library-backend] [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-05-03T19:05:18.776+08:00  INFO 11956 --- [library-backend] [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2026-05-03T19:05:19.212+08:00  INFO 11956 --- [library-backend] [nio-8080-exec-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-05-03T19:05:19.476+08:00  INFO 11956 --- [library-backend] [nio-8080-exec-2] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@258b8b36
+2026-05-03T19:05:19.479+08:00  INFO 11956 --- [library-backend] [nio-8080-exec-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.

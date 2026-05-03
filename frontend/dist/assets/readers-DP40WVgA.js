@@ -1,0 +1,1 @@
+import{x as r}from"./index-Mio61lUN.js";function d(e){return r.get("/readers",{params:e})}function n(e){return r.post("/readers",e)}function s(e,t){return r.put(`/readers/${e}`,t)}function u(e){return r.delete(`/readers/${e}`)}export{n as c,u as d,d as f,s as u};
